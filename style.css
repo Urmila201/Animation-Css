@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+ .img{
+  padding-top: 15rem;
+    width: 100%;
+    padding: 1rem;
+    animation: float 4s linear infinite;
+    text-align: center;
+    align-items: center;
+ }
+h1{
+  padding-top: 20px;
+  color: orange;
+  text-align: center;
+  
+}
+ @keyframes float{
+    0% ,100%{
+      transform: translateY(0rem);
+    }
+    50%{
+        transform: translateY(3rem);
+    }
+ }
